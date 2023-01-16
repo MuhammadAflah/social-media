@@ -1,0 +1,39 @@
+
+
+.header .title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: rgb(1, 1, 1)
+}
+
+.header .data {
+    display: inline-block;
+    /* background: rgba(255, 255, 255, .9); */
+    padding: 1.25rem;
+    border-radius: .313rem
+}
+
+@media (max-width:767.98px) {
+    
+    .header .title {
+        top: 30%
+    }
+    .header .data {
+        padding: .5rem
+    }
+    .header .data .h2,
+    .header .data h2 {
+        font-size: 16px
+    }
+    
+}
+
+.imagelist::-webkit-scrollbar {
+    display: none;
+}
+.imagelist{
+    margin-top: 2%;
+}
